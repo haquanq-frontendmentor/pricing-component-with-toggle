@@ -230,7 +230,7 @@ main .switch.plan-toggle {
 .switch .thumb {
     float: right;
     display: block;
-    margin: 0.25rem 0.3125rem;
+    margin: 0.25rem 0.25rem;
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 9999px;
