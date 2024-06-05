@@ -14,10 +14,10 @@ Users should be able to:
 
 ### Solution
 
-- Built with: `HtML` `CSS`
+- Built with: `HTML` `CSS`
 - Mobile first workflow
 
-:link: [`Solution Link`]() :link: [`Live Site Link`]()
+:link: [`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-et84qtEOzg) :link: [`Live Site Link`](https://haquanq.github.io/fm-pricing-component-with-toggle/)
 
 ![](./.docs/design/desktop-design-monthly.jpg)
 
