@@ -177,7 +177,10 @@ main .switch.plan-toggle {
     border-radius: inherit;
     padding: inherit;
     padding: 1.0625rem 0.125rem 0.8125rem 0;
-    inset: -1px;
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
     transition: 200ms ease;
 }
 
