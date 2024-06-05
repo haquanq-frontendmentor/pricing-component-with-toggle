@@ -128,12 +128,6 @@ main .switch.plan-toggle {
 .plan-wrapper h2 {
     font-size: 1.125rem;
 }
-.plan-offer .divider {
-    display: block;
-    width: 100%;
-    height: 0.0625rem;
-    background-color: var(--clr-light-grayish-blue);
-}
 .plan-offer {
     list-style: none;
     line-height: 1;
@@ -141,7 +135,11 @@ main .switch.plan-toggle {
     margin: 0 0 2rem 0;
 }
 .plan-offer li {
-    margin: 1.125rem 0 1.1875rem 0;
+    padding: 1.125rem 0 1.1875rem 0;
+    border-top: 1px solid var(--clr-light-grayish-blue);
+}
+.plan-offer li:last-child {
+    border-bottom: 1px solid var(--clr-light-grayish-blue);
 }
 
 .plan-price {
