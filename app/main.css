@@ -148,9 +148,6 @@ h6 {
     height: var(--track-height);
     align-items: center;
     display: flex;
-    transition-property: color, transform;
-    transition-duration: 200ms;
-    transition-timing-function: ease;
 
     --pad-to-track: calc((var(--track-width) / 2) + 1.5rem);
 }
@@ -162,6 +159,11 @@ h6 {
 }
 .switch__option.annually .switch__option--label {
     width: 4.375rem;
+}
+.switch__option--label {
+    transition-property: color, transform;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
 }
 .switch__option.monthly .switch__option--label {
     width: 4.0625rem;
