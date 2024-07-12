@@ -4,20 +4,19 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 
 ### The challenge
 
-- No access to design files :expressionless:
+- No access to design files, attempt pixel-perfect
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size :yum:
-- Control the toggle with both their mouse/trackpad and their keyboard :yum:
-- **Bonus**: Complete the challenge with just HTML and CSS :yum:
+- View the optimal layout for the component depending on their device's screen size
+- Control the toggle with both their mouse/trackpad and their keyboard
+- **Bonus**: Complete the challenge with just HTML and CSS
 
 ### Solution
 
 - Built with: `HTML` `CSS`
-- Mobile first workflow
-
-:link: [`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-et84qtEOzg) :link: [`Live Site Link`](https://haquanq.github.io/fm-pricing-component-with-toggle/)
+- Mobile-first workflow
+- Accessible switch using radio buttons
 
 ![](./.docs/design/desktop-design-monthly.jpg)
 
