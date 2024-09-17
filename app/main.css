@@ -57,28 +57,19 @@ ul {
 }
 img,
 picture,
-video,
-canvas,
 svg {
     display: block;
     max-width: 100%;
 }
 input,
-button,
-textarea,
-select {
+button {
     font: inherit;
 }
 p,
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
     overflow-wrap: break-word;
 }
-
 .main__container {
     position: relative;
     overflow-x: hidden;
