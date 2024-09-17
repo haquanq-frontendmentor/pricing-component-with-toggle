@@ -116,12 +116,14 @@ h2 {
 .switch {
     position: relative;
     width: fit-content;
-    display: flex;
     border: 0;
     padding: 0;
     margin-bottom: 5rem;
     color: var(--clr-gray-100);
     margin-left: 6px;
+    border-radius: var(--rounded-full);
+    display: flex;
+    align-items: center;
 
     --switch-transition-duration: 300ms;
     --thumb-size: 1.5rem;
