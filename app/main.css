@@ -140,7 +140,7 @@ h2 {
     border-radius: var(--rounded-full);
     background: var(--gradient--180);
     padding: var(--track-padding);
-    box-shadow: var(--shadow-md);
+    box-shadow: inset 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
 }
 .switch__thumb {
     background-color: var(--clr-gray-50);
