@@ -30,30 +30,28 @@
       <h1 class="main__headline">Our Pricing</h1>
 
       <fieldset class="switch">
-        <legend class="switch__label">Payment periods</legend>
-        <div class="switch__option--group">
-          <input
-            class="switch__option--input annually"
-            type="radio"
-            name="payment-periods"
-            id="annually"
-          />
-          <label class="switch__option annually" for="annually">
-            <span class="switch__option--label"> Annually </span>
-          </label>
-          <input
-            class="switch__option--input monthly"
-            type="radio"
-            name="payment-periods"
-            id="monthly"
-            checked
-          />
-          <label class="switch__option monthly" for="monthly">
-            <span class="switch__option--label"> Monthly </span>
-          </label>
-          <div class="switch__track">
-            <div class="switch__thumb"></div>
-          </div>
+        <legend class="sr-only">Payment periods</legend>
+        <input
+          class="switch__option--input annually"
+          type="radio"
+          name="payment-periods"
+          id="annually"
+        />
+        <label class="switch__option annually" for="annually">
+          <span class="switch__option--label">Annually</span>
+        </label>
+        <input
+          class="switch__option--input monthly"
+          type="radio"
+          name="payment-periods"
+          id="monthly"
+          checked
+        />
+        <label class="switch__option monthly" for="monthly">
+          <span class="switch__option--label"> Monthly </span>
+        </label>
+        <div class="switch__track">
+          <div class="switch__thumb"></div>
         </div>
       </fieldset>
 
