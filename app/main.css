@@ -156,12 +156,7 @@ h2 {
     height: 1px;
     opacity: 0;
 }
-.switch__option--group {
-    border-radius: var(--rounded-full);
-    display: flex;
-    align-items: center;
-}
-.switch__option--group:focus-within {
+.switch:focus-within {
     outline: 2px dashed var(--clr-blue-500);
     outline-offset: 8px;
 }
