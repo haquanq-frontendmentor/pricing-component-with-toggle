@@ -1,26 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 
     <title>Frontend Mentor | Pricing component with toggle</title>
   </head>
   <body>
     <main class="main__container">
-      <img
-        class="main__bg-pattern--top"
-        src="./assets/images/bg-top.svg"
-        alt="Background waves pattern on top-right"
-      />
+      <img class="main__bg-pattern--top" src="./assets/images/bg-top.svg" alt="Background waves pattern on top-right" />
       <img
         class="main__bg-pattern--bottom"
         src="./assets/images/bg-bottom.svg"
@@ -31,22 +22,11 @@
 
       <fieldset class="switch">
         <legend class="sr-only">Payment periods</legend>
-        <input
-          class="switch__option--input annually"
-          type="radio"
-          name="payment-periods"
-          id="annually"
-        />
+        <input class="switch__option--input annually" type="radio" name="payment-periods" id="annually" />
         <label class="switch__option annually" for="annually">
           <span class="switch__option--label">Annually</span>
         </label>
-        <input
-          class="switch__option--input monthly"
-          type="radio"
-          name="payment-periods"
-          id="monthly"
-          checked
-        />
+        <input class="switch__option--input monthly" type="radio" name="payment-periods" id="monthly" checked />
         <label class="switch__option monthly" for="monthly">
           <span class="switch__option--label"> Monthly </span>
         </label>
@@ -110,6 +90,6 @@
       </div>
     </main>
 
-    <script src="./main.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>

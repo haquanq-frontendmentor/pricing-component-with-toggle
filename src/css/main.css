@@ -1,10 +1,11 @@
-@import "./css/base/variables.css";
-@import "./css/base/reset.css";
+@import "./base/fonts.css";
+@import "./base/variables.css";
+@import "./base/reset.css";
 
-@import "./css/components/switch.css";
-@import "./css/components/plan.css";
+@import "./components/switch.css";
+@import "./components/plan.css";
 
-@import "./css/utils/a11y.css";
+@import "./utils/a11y.css";
 
 .main__container {
     position: relative;
