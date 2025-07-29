@@ -1,0 +1,43 @@
+:root {
+    --color-blue-300-hsl: 236, 72%, 79%;
+    --color-blue-500-hsl: 237, 63%, 64%;
+
+    --color-blue-300: hsl(var(--color-blue-300-hsl));
+    --color-blue-500: hsl(var(--color-blue-500-hsl));
+
+    --color-gray-50: hsl(240, 78%, 98%);
+    --color-gray-100: hsl(234, 14%, 74%);
+    --color-gray-300: hsl(233, 13%, 49%);
+    --color-gray-500: hsl(232, 13%, 33%);
+    --color-white: white;
+
+    --font-sans: "Montserrat", "Segoe UI", tahoma, geneva, verdana, sans-serif;
+    --font-bold: 700;
+
+    --text-base: 0.9375rem;
+
+    --leading-none: 1;
+
+    --rounded-sm: 0.5rem;
+    --rounded-base: 0.625rem;
+    --rounded-full: 9999px;
+
+    --gradient-180: linear-gradient(
+        to right,
+        hsla(var(--color-blue-300-hsl), 100%),
+        hsla(var(--color-blue-500-hsl), 100%)
+    );
+    --gradient-90: linear-gradient(
+        to bottom,
+        hsla(var(--color-blue-300-hsl), 100%),
+        hsla(var(--color-blue-500-hsl), 100%)
+    );
+    --gradient-45: linear-gradient(
+        135deg,
+        hsla(var(--color-blue-300-hsl), 100%),
+        hsla(var(--color-blue-500-hsl), 100%)
+    );
+
+    --shadow-sm: 0px 16px 48px -8px hsla(var(--color-blue-500-hsl), 0.2);
+    --shadow-md: 0px 4px 32px 0px hsla(var(--color-blue-500-hsl), 0.2);
+}
