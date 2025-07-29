@@ -1,12 +1,14 @@
 {
   "name": "pricing-component-with-toggle",
   "description": "This is a solution to the [Pricing component with toggle challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
-  "devDependencies": {
-    "browser-sync": "^3.0.2"
-  },
-  "scripts": {
-    "dev": "browser-sync start -s app -f app --no-ui"
-  },
   "author": "haquanq",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite serve --port 5000",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "vite": "^6.3.5"
+  }
 }
