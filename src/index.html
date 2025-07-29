@@ -19,13 +19,19 @@
 
         <fieldset class="switch">
           <legend class="sr-only">Payment periods</legend>
-          <input class="switch__option--input annually" type="radio" name="payment-periods" id="annually" />
-          <label class="switch__option annually" for="annually">
+          <input class="switch__input switch__input--annually" type="radio" name="payment-periods" id="annually" />
+          <label class="switch__option switch__option--annually" for="annually">
             <span class="switch__option--label">Annually</span>
           </label>
-          <input class="switch__option--input monthly" type="radio" name="payment-periods" id="monthly" checked />
-          <label class="switch__option monthly" for="monthly">
-            <span class="switch__option--label"> Monthly </span>
+          <input
+            class="switch__input switch__input--monthly"
+            type="radio"
+            name="payment-periods"
+            id="monthly"
+            checked
+          />
+          <label class="switch__option switch__option--monthly" for="monthly">
+            <span class="switch__option--label">Monthly</span>
           </label>
           <div class="switch__track">
             <div class="switch__thumb"></div>
