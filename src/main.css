@@ -1,17 +1,7 @@
 @import "./css/base/variables.css";
 @import "./css/base/reset.css";
 
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-}
+@import "./css/utils/a11y.css";
 
 .main__container {
     position: relative;
