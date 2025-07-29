@@ -3,6 +3,7 @@
   "description": "This is a solution to the [Pricing component with toggle challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
   "author": "haquanq",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "vite serve --port 5000",
     "build": "vite build",
@@ -23,6 +24,12 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "stylelint": "^16.21.1",
-    "stylelint-config-standard": "^38.0.0"
+    "stylelint-config-standard": "^38.0.0",
+    "postcss-custom-media": "^11.0.6",
+    "postcss-import": "^16.1.1",
+    "postcss-load-config": "^6.0.1",
+    "postcss-nested": "^7.0.2",
+    "postcss-preset-env": "^10.2.3",
+    "postcss-sort-media-queries": "^5.2.0"
   }
 }
