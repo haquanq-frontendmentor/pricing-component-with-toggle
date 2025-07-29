@@ -1,0 +1,117 @@
+.switch {
+    position: relative;
+    width: fit-content;
+    border: 0;
+    padding: 0;
+    margin-bottom: 5rem;
+    color: var(--color-gray-100);
+    margin-left: 6px;
+    border-radius: var(--rounded-full);
+    display: flex;
+    align-items: center;
+
+    --switch-transition-duration: 300ms;
+    --thumb-size: 1.5rem;
+    --track-padding: 0.25rem;
+    --track-padded-space: calc(var(--track-padding) * 2);
+    --track-width: calc((var(--thumb-size) * 2) + var(--track-padded-space));
+    --track-height: calc(var(--thumb-size) + var(--track-padded-space));
+    --thumb-travel-x: calc(var(--track-width) - var(--track-padded-space) - var(--thumb-size));
+}
+
+.switch__track {
+    pointer-events: none;
+    position: absolute;
+    left: 110px;
+    width: var(--track-width);
+    height: var(--track-height);
+    border-radius: var(--rounded-full);
+    background: var(--gradient-180);
+    padding: var(--track-padding);
+    box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 10%);
+}
+
+.switch__thumb {
+    background-color: var(--color-gray-50);
+    border-radius: var(--rounded-full);
+    height: var(--thumb-size);
+    width: var(--thumb-size);
+    transition: margin var(--switch-transition-duration) ease;
+}
+
+.switch__label {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.switch:focus-within {
+    outline: 2px dashed var(--color-blue-500);
+    outline-offset: 8px;
+}
+
+.switch__option {
+    cursor: pointer;
+    height: var(--track-height);
+    align-items: center;
+    display: flex;
+
+    --pad-to-track: calc((var(--track-width) / 2) + 1.5rem);
+}
+
+.switch__option--label {
+    transition-property: color, transform;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+}
+
+.switch__option.annually {
+    padding: 0 var(--pad-to-track) 0 1rem;
+}
+
+.switch__option.monthly {
+    padding: 0 1.3125rem 0 var(--pad-to-track);
+}
+
+.switch__option.annually .switch__option--label {
+    width: 4.375rem;
+}
+
+.switch__option.monthly .switch__option--label {
+    width: 4.0625rem;
+}
+
+.switch__option--input {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    position: absolute;
+}
+
+.switch__option--input:focus + .switch__option span {
+    transform: scale(1.1);
+    color: var(--color-blue-500);
+}
+
+.switch__option--input.annually:checked ~ .switch__track .switch__thumb {
+    margin-left: 0;
+}
+
+.switch__option--input.monthly:checked ~ .switch__track .switch__thumb {
+    margin-left: var(--thumb-travel-x);
+}
+
+@media (hover: hover) {
+    .switch__option:hover span {
+        transform: scale(1.1);
+        color: var(--color-blue-500);
+    }
+}
+
+@media (min-width: 64em) {
+    .switch {
+        margin-bottom: 4rem;
+    }
+}
