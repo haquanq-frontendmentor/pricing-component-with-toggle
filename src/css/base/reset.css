@@ -7,6 +7,11 @@
 
 body {
     line-height: var(--leading-none);
+    min-height: 100vh;
+    background-color: var(--color-gray-50);
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    font-weight: var(--font-bold);
     -webkit-font-smoothing: antialiased;
 }
 
