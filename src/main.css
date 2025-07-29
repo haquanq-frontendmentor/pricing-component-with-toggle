@@ -1,39 +1,5 @@
 @import "./css/base/variables.css";
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-}
-
-body {
-    line-height: var(--leading-none);
-    -webkit-font-smoothing: antialiased;
-}
-
-ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-img,
-picture,
-svg {
-    display: block;
-    max-width: 100%;
-}
-
-input,
-button {
-    font: inherit;
-}
-
-p,
-h1,
-h2 {
-    overflow-wrap: break-word;
-}
+@import "./css/base/reset.css";
 
 .sr-only {
     position: absolute;
