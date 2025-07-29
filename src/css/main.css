@@ -10,17 +10,8 @@
 .main__container {
     position: relative;
     overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: clamp(4.25rem, 6vw + 2rem, 4.6875rem);
     padding-bottom: clamp(4.4375rem, 6vw + 2rem, 6.4375rem);
-}
-
-.main__headline {
-    font-size: 2rem;
-    margin-bottom: 2.6875rem;
-    color: var(--color-gray-300);
 }
 
 .main__bg-pattern--top {

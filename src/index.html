@@ -14,76 +14,69 @@
       <img class="main__bg-pattern--top" src="./assets/images/bg-top.svg" alt="" />
       <img class="main__bg-pattern--bottom" src="./assets/images/bg-bottom.svg" alt="" />
 
-      <h1 class="main__headline">Our Pricing</h1>
+      <section class="plan">
+        <h1 class="plan__title" id="pricing-label">Our Pricing</h1>
 
-      <fieldset class="switch">
-        <legend class="sr-only">Payment periods</legend>
-        <input class="switch__option--input annually" type="radio" name="payment-periods" id="annually" />
-        <label class="switch__option annually" for="annually">
-          <span class="switch__option--label">Annually</span>
-        </label>
-        <input class="switch__option--input monthly" type="radio" name="payment-periods" id="monthly" checked />
-        <label class="switch__option monthly" for="monthly">
-          <span class="switch__option--label"> Monthly </span>
-        </label>
-        <div class="switch__track">
-          <div class="switch__thumb"></div>
-        </div>
-      </fieldset>
+        <fieldset class="switch">
+          <legend class="sr-only">Payment periods</legend>
+          <input class="switch__option--input annually" type="radio" name="payment-periods" id="annually" />
+          <label class="switch__option annually" for="annually">
+            <span class="switch__option--label">Annually</span>
+          </label>
+          <input class="switch__option--input monthly" type="radio" name="payment-periods" id="monthly" checked />
+          <label class="switch__option monthly" for="monthly">
+            <span class="switch__option--label"> Monthly </span>
+          </label>
+          <div class="switch__track">
+            <div class="switch__thumb"></div>
+          </div>
+        </fieldset>
 
-      <div class="plan__wrapper">
-        <section class="plan__item">
-          <h2 class="plan__title">
-            <span>Basic</span>
-            <span class="sr-only"> plan</span>
-          </h2>
-          <strong class="plan__price">
-            <span class="plan__price--currency">&dollar;</span>
-            <span class="plan__price--monthly">19.99</span>
-            <span class="plan__price--annually">199.99</span>
-          </strong>
-          <ul class="plan__offer__list">
-            <li class="plan__offer__item">500 GB Storage</li>
-            <li class="plan__offer__item">2 Users Allowed</li>
-            <li class="plan__offer__item">Send up to 3 GB</li>
-          </ul>
-          <a class="plan__link" href=""><span>Learn more</span></a>
-        </section>
-        <section class="plan__item">
-          <h2 class="plan__title">
-            <span>Professional</span>
-            <span class="sr-only"> plan</span>
-          </h2>
-          <strong class="plan__price">
-            <span class="plan__price--currency">&dollar;</span>
-            <span class="plan__price--monthly">24.99</span>
-            <span class="plan__price--annually">249.99</span>
-          </strong>
-          <ul class="plan__offer__list">
-            <li class="plan__offer__item">1 TB Storage</li>
-            <li class="plan__offer__item">5 Users Allowed</li>
-            <li class="plan__offer__item">Send up to 10 GB</li>
-          </ul>
-          <a class="plan__link" href=""><span>Learn more</span></a>
-        </section>
-        <section class="plan__item">
-          <h2 class="plan__title">
-            <span>Master</span>
-            <span class="sr-only">plan</span>
-          </h2>
-          <strong class="plan__price">
-            <span class="plan__price--currency">&dollar;</span>
-            <span class="plan__price--monthly">39.99</span>
-            <span class="plan__price--annually">399.99</span>
-          </strong>
-          <ul class="plan__offer__list">
-            <li class="plan__offer__item">2 TB Storage</li>
-            <li class="plan__offer__item">10 Users Allowed</li>
-            <li class="plan__offer__item">Send up to 20 GB</li>
-          </ul>
-          <a class="plan__link" href=""><span>Learn more</span></a>
-        </section>
-      </div>
+        <ul class="plan__list" role="list" aria-labelledby="pricing-label">
+          <li class="plan__item">
+            <h2 class="plan__label">Basic</h2>
+            <strong class="plan__price">
+              <span class="plan__price--currency">&dollar;</span>
+              <span class="plan__price--monthly">19.99</span>
+              <span class="plan__price--annually">199.99</span>
+            </strong>
+            <ul class="plan__detail-list" role="list">
+              <li class="plan__detail-item">500 GB Storage</li>
+              <li class="plan__detail-item">2 Users Allowed</li>
+              <li class="plan__detail-item">Send up to 3 GB</li>
+            </ul>
+            <a class="plan__link" href=""><span class="plan__link--text">Learn more</span></a>
+          </li>
+          <li class="plan__item">
+            <h2 class="plan__label">Professional</h2>
+            <strong class="plan__price">
+              <span class="plan__price--currency">&dollar;</span>
+              <span class="plan__price--monthly">24.99</span>
+              <span class="plan__price--annually">249.99</span>
+            </strong>
+            <ul class="plan__detail-list" role="list">
+              <li class="plan__detail-item">1 TB Storage</li>
+              <li class="plan__detail-item">5 Users Allowed</li>
+              <li class="plan__detail-item">Send up to 10 GB</li>
+            </ul>
+            <a class="plan__link" href=""><span class="plan__link--text">Learn more</span></a>
+          </li>
+          <li class="plan__item">
+            <h2 class="plan__label">Master</h2>
+            <strong class="plan__price">
+              <span class="plan__price--currency">&dollar;</span>
+              <span class="plan__price--monthly">39.99</span>
+              <span class="plan__price--annually">399.99</span>
+            </strong>
+            <ul class="plan__detail-list" role="list">
+              <li class="plan__detail-item">2 TB Storage</li>
+              <li class="plan__detail-item">10 Users Allowed</li>
+              <li class="plan__detail-item">Send up to 20 GB</li>
+            </ul>
+            <a class="plan__link" href=""><span class="plan__link--text">Learn more</span></a>
+          </li>
+        </ul>
+      </section>
     </main>
 
     <script type="module" src="./main.js"></script>
