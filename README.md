@@ -1,58 +1,76 @@
-# Frontend Mentor - Pricing component with toggle solution
+## Frontend Mentor - Pricing component with toggle solution
 
 This is a solution to the [Pricing component with toggle challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+<p>
+  <a href="https://www.frontendmentor.io/solutions/mobile-first-responsive-pixel-perfect-w-html-and-css-and-js-n_rL9kfU9P">
+    <img
+      alt="Solution post"
+      src="https://img.shields.io/badge/Frontendmentor-blue?label=Solution%20on"
+    /></a>
+  <a href="https://haquanq-frontendmentor.github.io/pricing-component-with-toggle/">
+    <img
+      alt="Live demo"
+      src="https://img.shields.io/badge/Demo-teal?label=Live"
+    /></a>
+  <a href="./LICENSE"
+    ><img
+      allt="MIT License"
+      src="https://img.shields.io/badge/MIT-blue?label=license"
+  /></a>
+</p>
+
 ## Table of contents
 
-- [Project overview](#rocket-project-overview)
-- [My workflow](#boat-my-workflow)
-- [How to work in this repository](#astronaut-how-to-work-in-this-repository)
-- [License](#page_with_curl-license)
+- [Project overview](#sunrise-project-overview)
+- [Development workflow](#stars-development-workflow)
+- [Working in this repository](#astronaut-working-in-this-repository)
 
-## :rocket: Project overview
+## :sunrise: Project overview
 
-### Challenge requirements
-
-Users should be able to:
+### Challenge equirements
 
 - View the optimal layout for the component depending on their device's screen size
 - Control the toggle with both their mouse/trackpad and their keyboard
 - **Bonus**: Complete the challenge with just HTML and CSS
 
-### Implemented features
+### Todo
 
-Core features:
+Features
 
-| Feature                              | Progress               |
-| ------------------------------------ | ---------------------- |
-| Toggle between annually/monthly plan | [ :white_check_mark: ] |
+- [x] Switch component
+  - [x] Can be used with keyboard
+  - [x] Switch between two states
 
-Accessibility features:
+Accessibility
 
-| Feature                                                | Progress               |
-| ------------------------------------------------------ | ---------------------- |
-| Reponse optimally across different screen size         | [ :white_check_mark: ] |
-| Highlight interactive elements when hover/focus/active | [ :white_check_mark: ] |
+- [x] Responsive accross different screen sizes
+- [x] Interactive elements have clear focus indicator
 
-### Screenshots
+### Preview
 
-![](./.docs/design/desktop-design-monthly.jpg)
+![](./docs/design/desktop-design-monthly.jpg)
 
-## :boat: My workflow
+## :stars: Development workflow
 
 ### Approach
 
-Developed with mobile-first workflow.
+Site built with mobile-first workflow to prioritize mobile devices, made accessible using [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/).
 
-### Built with
+### Tools
 
-| Tool         | Note                     |
-| ------------ | ------------------------ |
-| `JavaScript` | Programming language     |
-| `HTML`       | Standard markup language |
-| `CSS`        | Style sheet language     |
+- **PostCSS:** use SASS-like features in vanilla CSS, interpolation and minification..
+- **JavaScript**: add interactivity for components, handle application logic.
+- **Vite**: fast development server, production build and easy configuration.
+- **Prettier**: code formatter to maintain consistent coding style.
+- **Stylelint**: lint for CSS coding convention mistakes.
+- **Husky & lint-staged:** manage git hooks (primary used for pre-commit hook: linting, formatting).
 
-## :astronaut: Working in `fm-pricing-component-with-toggle` repository
+### Deployment
+
+- Deployed on github page using Github Actions (manually triggered).
+
+## :astronaut: Working in this repository
 
 ### Presequisites
 
@@ -66,7 +84,7 @@ Having these tools installed:
 Open new terminal, run the following command:
 
 ```
-git clone https://github.com/haquanq/fm-pricing-component-with-toggle.git
+git clone https://github.com/haquanq-frontendmentor/pricing-component-with-toggle.git
 ```
 
 Then, run `npm install` to install all dependencies.
@@ -75,14 +93,10 @@ Then, run `npm install` to install all dependencies.
 npm install
 ```
 
-### Development workflow
+### Start development server
 
 In terminal, run `npm run dev` to start development server:
 
 ```
 npm run dev
 ```
-
-## :page_with_curl: License
-
-This project follows [MIT License](./LICENSE). **DO NOT** use this project as your solution on [Frontend mentor](https://www.frontendmentor.io/solutions).
