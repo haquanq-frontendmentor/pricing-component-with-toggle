@@ -36,6 +36,7 @@
             --item-foreground-accent: var(--color-gray-500);
             --item-border-color: var(--color-gray-100);
             --item-border-color-accent: var(--color-blue-500);
+            --item-outline-color: var(--color-blue-500);
         }
 
         &:nth-child(2) {
@@ -46,6 +47,7 @@
             --item-border-color: var(--color-gray-50);
             --item-border-color-accent: var(--color-gray-50);
             --item-background-color: var(--gradient-45);
+            --item-outline-color: var(--color-white);
         }
     }
 
@@ -127,6 +129,17 @@
         @media (hover: hover) {
             &:hover::after {
                 opacity: 0;
+            }
+        }
+
+        @supports selector(:focus-visible) {
+            &:focus {
+                outline: none;
+            }
+
+            &:focus-visible {
+                outline: 2px dashed var(--item-outline-color);
+                outline-offset: 4px;
             }
         }
     }
