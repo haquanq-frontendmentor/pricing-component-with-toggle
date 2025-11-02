@@ -1,0 +1,15 @@
+{
+  "name": "Pricing Component With Toggle",
+  "featured": false,
+  "colors:": {
+    "brand": "#7276E2"
+  },
+  "images": {
+    "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/pricing-component-with-toggle/main/docs/preview.jpg"
+  },
+  "frontendmentor": {
+    "difficulty": "junior",
+    "challengeUrl": "https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC",
+    "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-pixel-perfect-w-html-and-css-and-js-n_rL9kfU9P"
+  }
+}
